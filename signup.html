@@ -1,0 +1,223 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
+    <title>Kairos - Premium product showcase</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" href="favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
+
+    <!-- Unminified version of CSS. Remove these lines if you use the minified version -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/swiper.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Uncomment the following to use the minified version of CSS. If you do this, please remove the above references -->
+    <!-- <link rel="stylesheet" href="css/kairos.min.css" />
+    <link rel="stylesheet" href="css/vendor.min.css"> -->
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="90">
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="page-loader">
+    <div class="container">
+        <img class="logo fading-logo" src="img/logo.png" alt="Kairos" />
+    </div>
+</div>
+
+
+
+    <!-- < NAVIGATION WITH BACKGROUND COLOR NAVBAR >............................................ -->
+<!-- removed navbar-toggleable-md because responsive issues. Find out why ..... -->
+<nav class="navbar navbar-expand-md navigation fixed-top sidebar-left">
+    <div class="container">
+    <button class="navbar-toggler" type="button">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <a href="#main" class="navbar-brand">
+        <img src="img/logo.png" alt="Kairos" class="logo d-block d-md-none d-lg-block">
+        <img src="img/ilogo.png" alt="Kairos" class="logo d-none d-md-block d-lg-none">
+    </a>
+
+    <div class="collapse navbar-collapse ml-auto" id="main-navbar">
+        <div class="sidebar-brand">
+            <a href="#main">
+                <img src="img/logo.png" alt="Kairos Template" class="logo">
+            </a>
+        </div>
+
+        <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link scrollto" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link scrollto" href="#highlights">Highlights</a></li>
+            <li class="nav-item"><a class="nav-link scrollto" href="#download">Download</a></li>
+            <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="signup.html">Sign up</a></li>
+        </ul>
+    </div>
+</div>
+
+</nav>
+
+
+
+<main>
+    
+    <header class="gradient page header overlap-next color-1">
+    <div class="container">
+        <h1 class="font-lg color-1">Start your free Kairos 12-days trial</h1>
+        <p class="lead">You have made an excellent choice.</p>
+    </div>
+</header>
+
+
+    <section class="section sign-up">
+    <div class="container shadow py-0 mb-7 bg-1">
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <div class="py-5 px-md-5">
+                    <h4 class="mb-4 color-5 font-md">We will need...</h4>
+
+                    <form action="srv/signup.php" method="post" class="form form-signup" name="form-signup" data-response-message-animation="slide-in-up">
+    <div class="form-group">
+        <label for="signup_username">Username</label>
+        <input type="text" name="Signup[username]" id="signup_username" class="form-control bg-1" placeholder="Enter your desired user name" required>
+    </div>
+
+    <div class="form-group">
+        <label for="signup_email">Email address</label>
+        <input type="email" name="Signup[email]" id="signup_email" class="form-control bg-1" placeholder="Valid Email" required>
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+
+    <div class="form-group">
+        <label for="signup_password">Password</label>
+        <input type="password" name="Signup[password]" id="signup_password" class="form-control bg-1" placeholder="Password" required>
+    </div>
+
+    <div class="form-group">
+        <label for="signup_password2">Password</label>
+        <input type="password" name="Signup[password2]" id="signup_password2" class="form-control bg-1" placeholder="Repeat password" required>
+    </div>
+
+    <div class="form-group">
+        <button id="signup-submit" data-loading-text="Signing up..." name="submit" type="submit" class="btn btn-primary px-5 py-3">
+            Create account
+        </button>
+
+        <p class="small">
+            By clicking this button you agree our <a href="privacy-policy.html" class="dotted">Privacy Policy</a> &nbsp;&amp;&nbsp; <a href="terms-of-service.html" class="dotted">Terms Of Service</a>
+        </p>
+    </div>
+</form>
+
+<div class="response-message">
+    <i class="fa-envelope-o font-lg mb-2"></i>
+
+    <p class="font-md m-0">Check your email</p>
+
+    <p class="response">We sent you an email with a link to get started. You’ll be in your account in no time.</p>
+</div>
+
+
+                </div>
+            </div>
+            <div class="col-12 col-md-4 overlay overlay-5 alpha-9 image-background cover sign-up-info d-flex">
+                <div class="d-flex flex-column content py-5 px-md-5">
+                    <h4 class="font-md color-1">Sign up</h4>
+
+                    <p class="color-1 alpha-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dicta dolore illum nesciunt non quisquam quod vero.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+</main>
+
+
+    <!-- FOOTER -->
+<footer class="site-footer section b-t">
+    <div class="container pb-3">
+        <div class="row text-center text-md-left">
+            <div class="col-md-5 mr-auto">
+                <h4 class="color-5">About <span class="bold">Kairos</span></h4>
+
+                <p>Meet <span class="bold">Kairos</span>, a carefully crafted and powerful HTML5 Template, it's perfect to showcase your startup, app & software in a beautiful way.</p>
+            </div>
+
+            <div class="col-md-2">
+                <h4 class="color-5"><span class="bold">Follow</span> Us</h4>
+
+                <nav class="nav flex-column mt-3">
+                    <a class="nav-link pl-0" href="#"><i class="fa-facebook"></i> Facebook</a>
+                    <a class="nav-link pl-0" href="#"><i class="fa-twitter"></i> Twitter</a>
+                    <a class="nav-link pl-0" href="#"><i class="fa-behance"></i> Behance</a>
+                    <a class="nav-link pl-0" href="#"><i class="fa-instagram"></i> Instagram</a>
+                </nav>
+            </div>
+
+            <div class="col-md-4">
+                <h4 class="color-5">Stay<span class="bold"> in touch</span></h4>
+
+                <p>By registering with us, you will receive right in your inbox all new features and updates.<span class="bold">Register now!</span></p>
+
+                <a class="btn btn-rounded btn-outline-2" href="signup.html">
+                    Register Now
+                </a>
+            </div>
+        </div>
+
+        <hr class="mt-5 bg-6">
+        <div class="row footer-bottom small align-items-center">
+            <div class="col-md-4">
+                <p class="mt-2 mb-0">© 2017 5studios. All Rights Reserved</p>
+            </div>
+
+            <div class="col-md-4">
+                <img src="img/logo.png" class="d-flex icon mx-auto" alt="">
+            </div>
+
+            <div class="col-md-4 col-md-auto">
+                <nav class="nav justify-content-center justify-content-md-end">
+                    <a class="nav-link" href="#">Privacy Policy</a>
+                    <a class="nav-link" href="#">Terms of Service</a>
+                    <a class="nav-link" href="#">Sitemap</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Individuals JS libraries. Remove these lines if you use the minified version -->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/swiper.jquery.min.js"></script>
+<script src="js/aos.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/pace.min.js"></script>
+<script src="js/modernizr-2.8.3.min.js"></script>
+<script src="js/forms.min.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Uncomment the following to use the minified version of JS. If you do this, please remove the above references -->
+<!-- <script src="js/lib.min.js"></script>
+<script src="js/kairos.min.js"></script> -->
+
+</body>
+</html>

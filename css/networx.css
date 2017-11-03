@@ -1,0 +1,12 @@
+.navigation.navbar-sticky {
+    background-color: #1b3535;
+    top: 0;
+}
+
+.navigation.navbar-sticky .nav-item .nav-link {
+    color: #fff;
+}
+
+.navigation.navbar-sticky .nav-item.active .nav-link, .navigation.navbar-sticky .nav-item:hover .nav-link {
+    color: #cecece;
+}
