@@ -1,12 +1,28 @@
+.logo.dark {
+    display: none !important;
+}
+
 .navigation.navbar-sticky {
-    background-color: #1b3535;
+    background-color: #fff;
     top: 0;
 }
 
+.navigation.navbar-sticky .logo.dark {
+    display: block !important;
+}
+
+.navigation.navbar-sticky .logo.light {
+    display: none !important;
+}
+
 .navigation.navbar-sticky .nav-item .nav-link {
-    color: #fff;
+    color: #1b3535;
 }
 
 .navigation.navbar-sticky .nav-item.active .nav-link, .navigation.navbar-sticky .nav-item:hover .nav-link {
     color: #cecece;
+}
+
+.header.hd-1, .header.hd-4 {
+    background-image: url(../img/background/bg-1.jpg);
 }
