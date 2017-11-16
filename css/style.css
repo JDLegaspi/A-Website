@@ -55,7 +55,7 @@ body {
   font-family: "Nunito", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  color: #41494f;
+  color: #414f44;
   background-color: #ffffff;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important; }
@@ -67,7 +67,7 @@ a {
     outline: 0 !important;
     text-decoration: none; }
 
-::-moz-selection {
+/* ::-moz-selection {
   background: #7e80e7;
   color: #41494f;
   text-shadow: none; }
@@ -75,7 +75,7 @@ a {
 ::selection {
   background: #7e80e7;
   color: #41494f;
-  text-shadow: none; }
+  text-shadow: none; } */
 
 hr {
   display: block;
@@ -267,6 +267,10 @@ textarea {
     background-color: rgba(235, 238, 243, 0.8); }
   .bg-6.alpha-9 {
     background-color: rgba(235, 238, 243, 0.9); }
+  
+.bg-7 {
+  background-color: #1b3535;
+}
 
 @-webkit-keyframes animate-background {
   0% {
@@ -960,6 +964,8 @@ blockquote {
     background: linear-gradient(to right, #143350 50%, rgba(20, 51, 80, 0.8)); }
   .overlay.overlay-5.alpha-9:after {
     background-color: rgba(28, 54, 54, 0.8); }
+  .overlay.overlay-5.alpha-10:after {
+    background-color: #efefef; }
   .overlay.overlay-5.alpha-9.gradient.to-left:after {
     background: -webkit-gradient(linear, right top, left top, color-stop(50%, #143350), to(rgba(20, 51, 80, 0.9)));
     background: linear-gradient(to left, #143350 50%, rgba(20, 51, 80, 0.9)); }

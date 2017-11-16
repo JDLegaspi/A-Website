@@ -1,18 +1,43 @@
-.logo.dark {
-    display: none !important;
+a {
+    color: #cecece;
+    transition: 0.2s;
 }
 
-.navigation.navbar-sticky {
-    background-color: #fff;
-    top: 0;
+a:hover {
+    color: #fff;
 }
 
-.navigation.navbar-sticky .logo.dark {
-    display: block !important;
+@media (min-width: 992px) {
+    .logo.dark {
+        display: none !important;
+    }
+
+    .navigation.navbar-sticky {
+        background-color: #fff;
+        top: 0;
+    }
+
+    .navigation.navbar-sticky .logo.dark {
+        display: block !important;
+    }
+
+    .navigation.navbar-sticky .logo.light {
+        display: none !important;
+    }
 }
 
-.navigation.navbar-sticky .logo.light {
-    display: none !important;
+@media (max-width: 992px) {
+    .logo.idark {
+        display: none !important;
+    }
+
+    .navigation.navbar-sticky .logo.idark {
+        display: block !important;
+    }
+
+    .navigation.navbar-sticky .logo.ilight {
+        display: none !important;
+    }
 }
 
 .navigation.navbar-sticky .nav-item .nav-link {
@@ -25,4 +50,12 @@
 
 .header.hd-1, .header.hd-4 {
     background-image: url(../img/background/bg-1.jpg);
+}
+
+.follow-us a {
+    padding: 10px;
+}
+
+.follow-us > div {
+    padding: 5px 0;
 }
