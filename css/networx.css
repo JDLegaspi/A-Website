@@ -50,7 +50,7 @@ a:hover {
 
 .header.hd-1, .header.hd-4 {
     background-image: url(../img/background/bg-1.jpg);
-    background-repeat: repeat-x;
+    background-repeat: repeat;
 }
 
 .follow-us a {
@@ -70,6 +70,43 @@ a:hover {
     font-size: 17px;
 }
 
+.contact-icons a i {
+    font-size: 28px;
+}
+
 .available-on a:hover {
     color: #BFBFBF;
+}
+
+.container.contact-section {
+    padding: 0;
+}
+
+.contact-link {
+    display: inline-block;
+    color: #414f44 !important;
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    -webkit-transition: 0.4s;
+}
+
+.contact-link:not(:first-child) {
+    border-top: 1px solid #e0e0e0;
+}
+
+.contact-img {
+    padding: 31px;
+}
+
+.contact-link:hover {
+    background: #f1f1f1;
+}
+
+.contact-link > div {
+    margin: 20px;
+}
+
+.home-link {
+    display: none;
 }

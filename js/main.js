@@ -48,23 +48,6 @@ $(function() {
     navbarSticky();
 
     /**
-     * SCROLLING NAVIGATION
-     * Enable smooth transition animation when scrolling
-     **/
-    $('a.scrollto').on('click', function (event) {
-        event.preventDefault();
-
-        var scrollAnimationTime = 1200;
-        var target = this.hash;
-
-        $('html, body').stop().animate({
-            scrollTop: $(target).offset().top
-        }, scrollAnimationTime, 'easeInOutExpo', function () {
-            window.location.hash = target;
-        });
-    });
-
-    /**
      *  NAVBAR SIDE COLLAPSIBLE
      **/
     $(".navbar-toggler").on("click", function() {
