@@ -50,6 +50,7 @@ a:hover {
 
 .header.hd-1, .header.hd-4 {
     background-image: url(../img/background/bg-1.jpg);
+    background-repeat: repeat-x;
 }
 
 .follow-us a {
@@ -58,4 +59,17 @@ a:hover {
 
 .follow-us > div {
     padding: 5px 0;
+}
+
+.available-on a {
+    margin: 3px;
+    color: #1b3535;
+}
+
+.available-on a i{
+    font-size: 17px;
+}
+
+.available-on a:hover {
+    color: #BFBFBF;
 }
