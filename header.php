@@ -4,6 +4,7 @@
     <title>Networx - Decentralised Digital Real Estate</title>
     <meta name="title" content="Networx">
     <meta name="description" content="Networx is a platform that gives you the power to create your own decetralised network on the Networx infrastructure.">
+    <meta property="image" content="img/ilogo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Place favicon.ico in the root directory -->
@@ -31,7 +32,7 @@
 
 <div class="page-loader">
     <div class="container">
-        <img class="logo fading-logo" src="img/NETWORX-logo-white.png" alt="Networx" />
+        <img class="logo fading-logo img-responsive" src="img/NETWORX-logo-white.png" alt="Networx" style="width: 100%;"/>
     </div>
 </div>
 

@@ -44,10 +44,10 @@
         </div>
     </section>
 
-    <section id="token" class="section parallax align-items-center p100-bottom overlay overlay-5 alpha-10 d-flex" style="padding: 70px 0;">
+    <section id="token" class="section parallax align-items-center p100-bottom overlay overlay-5 alpha-10 d-flex" style="padding: 70px 0 0;">
         <div class="container">
             <div class="row align-items-center text-center text-lg-left">
-                <div class="col-12 col-md-6 col-lg-5 order-lg-2 ml-md-auto text-center text-md-left">
+                <div class="col-12 col-md-6 col-lg-5 order-lg-2 ml-md-auto text-center text-md-left" style="margin-bottom: 50px;">
                     <div class="text-center text-md-left">
                             <h2>Networx <span class="bold">Token</span></h2>
                             <hr class="my-4">

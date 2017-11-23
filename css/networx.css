@@ -26,8 +26,9 @@ a:hover {
     }
 }
 
-@media (max-width: 992px) {
-    .logo.idark {
+@media (max-width: 990px) {
+
+    .idark {
         display: none !important;
     }
 
@@ -38,7 +39,31 @@ a:hover {
     .navigation.navbar-sticky .logo.ilight {
         display: none !important;
     }
+
+    .light {
+        display: none !important;
+    }
 }
+
+@media (max-width: 767px) {
+    .navigation.navbar-sticky .logo.idark {
+        display: none !important;
+    }
+
+    .navigation .navbar-toggler .icon-bar {
+        background-color: #1b3535;
+    }
+    
+    .navigation .nav-item .nav-link {
+        color: #1b3535;
+    }
+    
+    .navigation .nav-item .nav-link:hover {
+        background-color: #1b3535;
+        color: #fff;
+    }
+}
+
 
 .navigation.navbar-sticky .nav-item .nav-link {
     color: #1b3535;
