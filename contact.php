@@ -23,7 +23,7 @@
                         <div class="align-self-center col-md-12">
                             <div class="col-md-8 offset-md-2">
                                 <h3>Talk To Us On Slack</h3>
-                                <p>Lorem Ipsum etc etc etc etc</p>
+                                <p>Ask questions, directly to the Networx channel</p>
                             </div>
                         </div>
                     </div>
@@ -43,7 +43,7 @@
                         <div class="align-self-center col-md-12">
                             <div class="col-md-8 offset-md-2">
                                 <h3>Follow Us On Twitter</h3>
-                                <p>Lorem Ipsum etc etc etc etc</p>
+                                <p>The first stop for Netrworx news</p>
                             </div>
                         </div>
                     </div>
@@ -63,7 +63,7 @@
                         <div class="align-self-center col-md-12">
                             <div class="col-md-8 offset-md-2">
                                 <h3>See Our News On Medium</h3>
-                                <p>Lorem Ipsum etc etc etc etc</p>
+                                <p>Keep up to date on our blog</p>
                             </div>
                         </div>
                     </div>
@@ -83,7 +83,7 @@
                         <div class="align-self-center col-md-12">
                             <div class="col-md-8 offset-md-2">
                                 <h3>Chat With Us On Telegram</h3>
-                                <p>Lorem Ipsum etc etc etc etc</p>
+                                <p>Get to us directly, privately, and quickly</p>
                             </div>
                         </div>
                     </div>

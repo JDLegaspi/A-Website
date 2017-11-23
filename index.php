@@ -36,7 +36,7 @@
                 </div>
 
                 <div class="col-md-5 ml-auto">
-                    <img class="img-responsive" src="img/section-1-img.png" alt="..." data-aos="fade-left">
+                    <img class="img-responsive" src="img/section-1-img.png"  data-aos="fade-left">
                 </div>
             </div>
         </div>
@@ -51,12 +51,12 @@
                             <hr class="my-4">
                             <p class="lead">In correspondence to the Networx platform, we introduce the Networx token (NWX).</p>
         
-                            <p>Powered by blockchain technology, this ERC20 token can be used to buy land to create a network, send to other users, as well as participate in community-wide events hosted by the Networx team.</p>
+                            <p>Powered by the Ethereum blockchain, this ERC20 token can be used to buy land to create a network, send to other users, as well as participate in community-wide events hosted by the Networx team.</p>
                         </div>
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-5 order-lg-1">
-                    <img class="img-responsive" src="img/section-2-img.png" alt="..." data-aos="fade-right">
+                    <img class="img-responsive" src="img/section-2-img.png"  data-aos="fade-right">
                 </div>
             </div>
         </div>
@@ -73,7 +73,27 @@
                 </div>
 
                 <div class="col-md-5 ml-auto">
-                    <img class="img-responsive" src="img/section-3-img.png" alt="..." data-aos="fade-left">
+                    <img class="img-responsive" src="img/section-3-img.png"  data-aos="fade-left">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="community" class="section parallax align-items-center p100-bottom d-flex">
+        <div class="container">
+            <div class="row align-items-center text-center text-lg-left">
+                <div class="col-12 col-md-6 col-lg-5 order-lg-2 ml-md-auto text-center text-md-left">
+                    <div class="text-center text-md-left">
+                            <h2>Community <span class="bold">Events</span></h2>
+                            <hr class="my-4">
+        
+                            <p>The Networx team will periodically hold an event where teams of users will compete to see who can make the best project under a given amount of time. At the end of each event, users will vote using our Networx token.</p>
+                            <p> The winners will have their project featured on our home-page, and made public for others to see.</p>
+                        </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-5 order-lg-1" style="padding: 35px;">
+                    <img class="img-responsive" src="img/section-4-img.png"  data-aos="fade-right">
                 </div>
             </div>
         </div>
