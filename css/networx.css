@@ -110,3 +110,11 @@ a:hover {
 .home-link {
     display: none;
 }
+
+.platform-info section:not(:first-child) > .container {
+    padding-top: 0;
+}
+
+.platform-info section:not(:last-child) > .container {
+    padding-bottom: 0;
+}

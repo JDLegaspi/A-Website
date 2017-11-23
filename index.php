@@ -62,42 +62,45 @@
         </div>
     </section>
 
-    <section id="platform" class="section">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6 alpha-5 text-center text-md-left">
-                    <h2 class="mb-3">We Want You To Be <span class="bold">Seen</span></h2>
-                    <hr class="my-4"/>
+    <div class="platform-info">
+        <section id="platform" class="section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 alpha-5 text-center text-md-left">
+                        <h2 class="mb-3">We Want You To Be <span class="bold">Seen</span></h2>
+                        <hr class="my-4"/>
 
-                    <p>Users will be able to rank, rate, search, and sort through a collection of created networks. You can use this platform to browse content created by developers on our decentralised Networx platform.</p>
-                </div>
+                        <p class="lead">Users will be able to rank, rate, search, and sort through a collection of created networks on the <strong>Networx Frontpage</strong>.</p>
+                        <p> You can use this platform to browse content created by developers on our decentralised Networx platform. Networx will fall under categories which will allow other users to visit and use them easily. Projects from each category will be ranked higher based on their popularity.</p>
+                    </div>
 
-                <div class="col-md-5 ml-auto">
-                    <img class="img-responsive" src="img/section-3-img.png"  data-aos="fade-left">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="community" class="section parallax align-items-center p100-bottom d-flex">
-        <div class="container">
-            <div class="row align-items-center text-center text-lg-left">
-                <div class="col-12 col-md-6 col-lg-5 order-lg-2 ml-md-auto text-center text-md-left">
-                    <div class="text-center text-md-left">
-                            <h2>Community <span class="bold">Events</span></h2>
-                            <hr class="my-4">
-        
-                            <p>The Networx team will periodically hold an event where teams of users will compete to see who can make the best project under a given amount of time. At the end of each event, users will vote using our Networx token.</p>
-                            <p> The winners will have their project featured on our home-page, and made public for others to see.</p>
-                        </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-5 order-lg-1" style="padding: 35px;">
-                    <img class="img-responsive" src="img/section-4-img.png"  data-aos="fade-right">
+                    <div class="col-md-5 ml-auto">
+                        <img class="img-responsive" src="img/section-3-img.png"  data-aos="fade-left">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <section id="community" class="section align-items-center p100-bottom d-flex">
+            <div class="container">
+                <div class="row align-items-center text-center text-lg-left">
+                    <div class="col-12 col-md-6 col-lg-5 order-lg-2 ml-md-auto text-center text-md-left">
+                        <div class="text-center text-md-left">
+                                <h2>Community <span class="bold">Events</span></h2>
+                                <hr class="my-4">
+            
+                                <p>The Networx team will periodically hold an event where teams of users will compete to see who can make the best project under a given amount of time. At the end of each event, users will vote using our Networx token.</p>
+                                <p> The winners will have their project featured on our home-page, and made public for others to see.</p>
+                            </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-5 order-lg-1" style="padding: 35px;">
+                        <img class="img-responsive" src="img/section-4-img.png"  data-aos="fade-right">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
 </main>
 
