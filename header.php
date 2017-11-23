@@ -2,7 +2,8 @@
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
     <title>Networx - Decentralised Digital Real Estate</title>
-    <meta name="description" content="">
+    <meta name="title" content="Networx">
+    <meta name="description" content="Networx is a platform that gives you the power to create your own decetralised network on the Networx infrastructure.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Place favicon.ico in the root directory -->
@@ -60,7 +61,7 @@
         </div>
 
         <ul class="nav navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="networx_whitepaper.pdf" download>Whitepaper</a></li>
+            <li class="nav-item"><a class="nav-link" href="Networx_Whitepaper.pdf" target="_blank">Whitepaper</a></li>
             <li class="nav-item"><a class="nav-link home-link" href="index.php">Home</a></li>
             <li class="nav-item"><a class="nav-link scrollto section-link" href="index.php#about">About</a></li>
             <li class="nav-item"><a class="nav-link scrollto section-link" href="index.php#token">Token</a></li>

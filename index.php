@@ -6,14 +6,16 @@
 
 <main>
     
-    <header id="top-image" class="fullscreen parallax header hd-1 section parallax align-items-center image-background cover p100-bottom overlay overlay-5 alpha-9 color-1 d-flex">
-        <div class="container color-1 text-center">
-            <h1 class="display-5 display-md-4">Networx is a self-governing internetwork powered by the people</h1>
-    
-            <p class="lead">Using the Ethereum blockchain, we give you the power to create your very own decentralised projects on your very own Networx real estate</p>
+    <div style="overflow: hidden;">
+        <header id="top-image" class="fullscreen parallax header hd-1 section parallax align-items-center image-background cover p100-bottom overlay overlay-5 alpha-9 color-1 d-flex" style="transform: scale(1.05);">
+            <div class="container color-1 text-center">
+                <h1 class="display-5 display-md-4">Networx is a self-governing internetwork powered by the people</h1>
+        
+                <p class="lead">Using the Ethereum blockchain, we give you the power to create your very own decentralised projects on your very own Networx real estate</p>
 
-        </div>
-    </header>
+            </div>
+        </header>
+    </div>
 
     <section id="about" class="overview">
         <div class="container">
@@ -21,9 +23,9 @@
                 <div class="col-md-5 text-center text-md-left">
                     <h2>About <span class="bold">Networx</span></h2>
                     <hr class="my-4">
-                    <p class="lead">Networx is a platform that gives you the power to create your own decetralised network on the Networx infrastructure.</p>
+                    <p class="lead">Networx is a platform that gives you the power to create your own decentralised network on the Networx infrastructure.</p>
 
-                    <p>Users can purchase digital real estate on our platform and build applications using their space. They will be in complete control of their network, and their creation will have no presence monitoring or moderating them.</p>
+                    <p>Users can purchase digital real estate on our platform and build applications using their space. They will be in complete control of their network, and their creation will have no external presence monitoring or moderating them.</p>
 
                     <hr class="my-4"/>
                     <p class="mt-0 mb-1 small text-muted">Available on</p>
@@ -101,7 +103,6 @@
             </div>
         </section>
     </div>
-
 </main>
 
 <?php include_once 'footer.php';?>

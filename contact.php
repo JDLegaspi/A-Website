@@ -43,7 +43,7 @@
                         <div class="align-self-center col-md-12">
                             <div class="col-md-8 offset-md-2">
                                 <h3>Follow Us On Twitter</h3>
-                                <p>The first stop for Netrworx news</p>
+                                <p>The first stop for Networx news</p>
                             </div>
                         </div>
                     </div>
